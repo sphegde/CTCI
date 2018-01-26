@@ -21,9 +21,9 @@ def checkPerm(s1,s2):
 
 #sorting the string
 def bySort(s1,s2):
-    S1=sorted(s1)
-    S2=sorted(s2)
-    return S1==S2
+    a1=sorted(s1)
+    b2=sorted(s2)
+    return a1==b2
 
 print(checkPerm("fdss","ssfd"))
 print(bySort("fdss","ssfd"))
