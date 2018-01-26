@@ -28,15 +28,3 @@ def bySort(s1,s2):
 
 print(checkPerm("fdss","ssfd"))
 print(bySort("fdss","ssfd"))
-
-
-
-
-
-
-
-
-
-
-
-#sorting strings and comparing
