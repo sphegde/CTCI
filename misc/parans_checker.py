@@ -1,4 +1,4 @@
-#check if the parans "{}" are balanced 
+#check if the parans are balanced
 def paran_checker(s):
     stack=[]
     for t in s :
@@ -17,10 +17,8 @@ def paran_checker(s):
         return False
 
 
-
-
-
 print(paran_checker("{{}}"))
+
 
 
 
