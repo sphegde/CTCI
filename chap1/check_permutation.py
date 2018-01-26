@@ -6,7 +6,6 @@ def checkPerm(s1,s2):
         return False
     else:
         hasht={}
-        v=0
         for n in s1:
             if n in hasht:
                 hasht[n]+=1
