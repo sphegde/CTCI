@@ -1,10 +1,11 @@
-#linkedlist implementation
 
+
+# node class
 class node():
     def __init__(self,value):
         self.data=value
         self.next=None
-
+#linked list class
 class LinkedList():
     def __init__(self):
         self.head=None
@@ -36,7 +37,7 @@ class LinkedList():
 
 
 
-    #Question 1
+    #Question 1 CTCI Linked lists
     def remove_duplicates(self):
         table={}
         current=self.head
@@ -67,7 +68,7 @@ class LinkedList():
 
             current=current.next
 
-    #Question 2
+    #Question 2- remove kth to the last node
     def kth_node(self,k):
         ptr1=ptr2=self.head
 
@@ -81,11 +82,6 @@ class LinkedList():
             ptr1=ptr1.next
         return ptr1.data
 
-    #Question 4
-
-
-
-
     def value_at_position(self,pos):
         temp=self.head
         count=1
@@ -94,8 +90,7 @@ class LinkedList():
             temp=temp.next
         print(temp.data)
 
-
-
+    #helper print funciton 
     def printL(self):
         temp=self.head
         while(temp):
