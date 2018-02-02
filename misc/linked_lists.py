@@ -101,32 +101,3 @@ class LinkedList():
         while(temp):
             print(temp.data)
             temp=temp.next
-
-
-l=LinkedList()
-l.insert_front(4)
-l.insert_front(3)
-l.insert_front(5)
-l.insert_front(2)
-l.insert_front(1)
-l.add_behind(5)
-print("linked list printed")
-l.printL()
-print("kth node from behind")
-print(l.kth_node(2))
-print("value at")
-l.value_at_position(4)
-print("remove duplicates")
-l.remove_duplicates_runners()
-l.printL()
-print("reversed list")
-l.reverseIterative()
-l.printL()
-
-
-
-
-
-
-
-
